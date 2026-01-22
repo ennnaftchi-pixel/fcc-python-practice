@@ -97,3 +97,10 @@ An object-oriented Python exercise that models a media catalogue capable of stor
 - Demonstrates clean `__str__` and `__repr__` usage
 
 Focuses on OOP design, validation, and parent vs child class filtering.
+
+### 12. **Discount Engine OOP** (`discount_engine_oop.py`)
+
+An object-oriented Python exercise that models a discount engine.  
+- Supports multiple discount strategies: percentage, fixed amount, and premium user discounts.  
+- Calculates the best possible price for a product based on applicable strategies.  
+- Demonstrates abstract base classes (ABC) and polymorphism in Python.
