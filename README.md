@@ -43,64 +43,111 @@ It is **primarily for learning and experimentation**, so code may not always be 
 
 ## Projects
 
-### 1. **Budget App** (`budget_app.py`)
-A simple budget tracking app with categories.  
-- Tracks deposits, withdrawals, and transfers between categories.  
-- Displays a visual spending chart showing the percentage of expenses per category.
+### 1. **PIN Extractor** (`pin_extractor.py`)
+A beginner-friendly exercise focused on string manipulation.  
+- Extracts numeric PIN codes from strings  
+- Practices loops, conditionals, and basic data processing  
 
-### 2. **Email Simulator** (`email_simulator.py`)
-Simulates sending and receiving emails between users.  
-- Users have an inbox, can send, read, and delete emails.  
-- Each email shows sender, receiver, subject, body, and timestamp.
+---
 
-### 3. **Employee Salary Tracker** (`employee_salary_tracker.py`)
-Manages employee data with levels and salary tracking.  
-- Supports promotions and salary updates with validation rules.  
-- Provides a clear string and repr representation for each employee.
-
-### 4. **Game Character Stats Tracker** (`game_character_stats_tracker.py`)
-Tracks stats for a game character.  
-- Attributes include name, health, mana, and level.  
-- Supports leveling up, health/mana validation, and formatted display of stats.
-
-### 5. **ISBN Validator** (`isbn_validator.py`)
+### 2. **ISBN Validator** (`isbn_validator.py`)
 Validates ISBN-10 and ISBN-13 codes.  
-- Checks proper format and calculates checksum to ensure validity.
+- Checks proper format  
+- Calculates checksums to ensure validity  
+- Introduces basic algorithmic thinking  
 
-### 6. **Musical Instrument OOP Example** (`musical_instrument_oop.py`)
-Demonstrates object-oriented programming with musical instruments.  
-- Shows inheritance, method overriding, and class attributes.
+---
 
-### 7. **PIN Extractor** (`pin_extractor.py`)
-Extracts numeric PIN codes from strings.  
-- Useful for learning string manipulation and pattern recognition.
-
-### 8. **Planet Class OOP Exercise** (`planet_class.py`)
+### 3. **Planet Class OOP Exercise** (`planet_class.py`)
 Implements a Planet class to model celestial objects.  
-- Demonstrates class methods, properties, and string representations.
+- Demonstrates class attributes and instance methods  
+- Introduces `__str__` and basic object modeling  
 
-### 9. **User Settings Manager** (`user_settings_manager.py`)
+---
+
+### 4. **Musical Instrument OOP Example** (`musical_instrument_oop.py`)
+Demonstrates object-oriented programming with musical instruments.  
+- Shows inheritance  
+- Method overriding  
+- Reinforces class relationships  
+
+---
+
+### 5. **User Settings Manager** (`user_settings_manager.py`)
 Manages user preferences for appearance, personality, and accent colors.  
-- Provides getter and setter functions for settings in a structured way.
+- Uses structured getter and setter functions  
+- Reinforces dictionaries and state management  
 
-### 10. **Medical Records Validator** (`validate_medical_records.py`)
+---
+
+### 6. **Game Character Stats Tracker** (`game_character_stats_tracker.py`)
+Tracks stats for a game character.  
+- Attributes include name, health, mana, and level  
+- Uses validation logic  
+- Introduces encapsulation and controlled state updates  
+
+---
+
+### 7. **Employee Salary Tracker** (`employee_salary_tracker.py`)
+Manages employee data with promotions and salary tracking.  
+- Uses validation rules  
+- Implements `__str__` and `__repr__` properly  
+- Strengthens real-world OOP modeling  
+
+---
+
+### 8. **Medical Records Validator** (`validate_medical_records.py`)
 Performs validation checks on medical record data.  
-- Shows practical application of Python for data cleaning and validation.
+- Practical data validation  
+- Combines conditionals, loops, and defensive programming  
+
+---
+
+### 9. **Email Simulator** (`email_simulator.py`)
+Simulates sending and receiving emails between users.  
+- Users have inboxes  
+- Can send, read, and delete emails  
+- Introduces interaction between multiple classes  
+
+---
+
+### 10. **Budget App** (`budget_app.py`)
+A more complex project combining logic and presentation.  
+- Tracks deposits, withdrawals, and transfers  
+- Generates a spending chart  
+- Requires careful state tracking and calculations  
+
+---
 
 ### 11. **Media Catalogue** (`media_catalogue_oop.py`)
+An object-oriented media catalogue for movies and TV series.  
 
-An object-oriented Python exercise that models a media catalogue capable of storing and displaying movies and TV series.
+- Uses inheritance (`Movie` → `TVSeries`)  
+- Implements custom exceptions  
+- Separates parent vs child classes using `type()`  
+- Clean `__str__` formatting  
 
-- Uses inheritance (`Movie` → `TVSeries`)
-- Implements custom exceptions
-- Separates movies and TV series using `type()`
-- Demonstrates clean `__str__` and `__repr__` usage
+Focuses on OOP design, validation, and polymorphism awareness.
 
-Focuses on OOP design, validation, and parent vs child class filtering.
+---
 
-### 12. **Discount Engine OOP** (`discount_engine_oop.py`)
+### 12. **Player Movement OOP** (`player_movement_oop.py`)
+An object-oriented exercise using abstract base classes.  
 
-An object-oriented Python exercise that models a discount engine.  
-- Supports multiple discount strategies: percentage, fixed amount, and premium user discounts.  
-- Calculates the best possible price for a product based on applicable strategies.  
-- Demonstrates abstract base classes (ABC) and polymorphism in Python.
+- Uses `ABC` and `@abstractmethod`  
+- Tracks movement on a 2D grid  
+- Demonstrates leveling up by extending behavior  
+
+Introduces enforced interfaces and abstract design.
+
+---
+
+### 13. **Discount Engine OOP** (`discount_engine_oop.py`)
+The most advanced exercise in the repository.  
+
+- Implements multiple discount strategies  
+- Uses abstract base classes and polymorphism  
+- Calculates optimal outcomes dynamically  
+- Models a real-world strategy pattern  
+
+Demonstrates clean architecture, extensibility, and advanced OOP thinking.
