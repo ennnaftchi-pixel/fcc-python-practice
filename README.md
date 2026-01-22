@@ -86,3 +86,14 @@ Manages user preferences for appearance, personality, and accent colors.
 ### 10. **Medical Records Validator** (`validate_medical_records.py`)
 Performs validation checks on medical record data.  
 - Shows practical application of Python for data cleaning and validation.
+
+### 11. **Media Catalogue** (`media_catalogue_oop.py`)
+
+An object-oriented Python exercise that models a media catalogue capable of storing and displaying movies and TV series.
+
+- Uses inheritance (`Movie` → `TVSeries`)
+- Implements custom exceptions
+- Separates movies and TV series using `type()`
+- Demonstrates clean `__str__` and `__repr__` usage
+
+Focuses on OOP design, validation, and parent vs child class filtering.
