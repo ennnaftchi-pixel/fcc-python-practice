@@ -151,3 +151,13 @@ The most advanced exercise in the repository.
 - Models a real-world strategy pattern  
 
 Demonstrates clean architecture, extensibility, and advanced OOP thinking.
+
+### 14. **Linked List OOP** (`linked_list_oop.py`)
+A basic implementation of a singly linked list.  
+
+- Uses a nested `Node` class  
+- Supports adding and removing elements  
+- Tracks list length manually  
+- Demonstrates pointer-based data structures  
+
+Introduces linked data structures and low-level memory-style thinking.
