@@ -161,3 +161,13 @@ A basic implementation of a singly linked list.
 - Demonstrates pointer-based data structures  
 
 Introduces linked data structures and low-level memory-style thinking.
+
+### 15. **Hash Table OOP** (`hash_table_oop.py`)
+A simple implementation of a hash table data structure.  
+
+- Uses a custom hash function  
+- Handles collisions using nested dictionaries  
+- Supports add, remove, and lookup operations  
+- Demonstrates key concepts behind hash-based data structures  
+
+Introduces hashing, collision handling, and efficient key-based access.
