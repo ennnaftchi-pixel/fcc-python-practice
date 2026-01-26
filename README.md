@@ -152,6 +152,8 @@ The most advanced exercise in the repository.
 
 Demonstrates clean architecture, extensibility, and advanced OOP thinking.
 
+---
+
 ### 14. **Linked List OOP** (`linked_list_oop.py`)
 A basic implementation of a singly linked list.  
 
@@ -161,6 +163,8 @@ A basic implementation of a singly linked list.
 - Demonstrates pointer-based data structures  
 
 Introduces linked data structures and low-level memory-style thinking.
+
+---
 
 ### 15. **Hash Table OOP** (`hash_table_oop.py`)
 A simple implementation of a hash table data structure.  
@@ -172,6 +176,8 @@ A simple implementation of a hash table data structure.
 
 Introduces hashing, collision handling, and efficient key-based access.
 
+---
+
 ### 16. **Binary Search Algorithm** (`binary_search_algorithm.py`)
 An implementation of the binary search algorithm on a sorted list.
 
@@ -181,6 +187,8 @@ An implementation of the binary search algorithm on a sorted list.
 
 Introduces algorithmic thinking and performance-aware searching.
 
+---
+
 ### 17. **Square Root Bisection Method** (`square_root_bisection.py`)
 
 Approximates the square root of a number using the bisection algorithm.
@@ -188,3 +196,14 @@ Approximates the square root of a number using the bisection algorithm.
 - Uses iterative narrowing with configurable tolerance
 - Handles edge cases (0, 1, negative numbers)
 - Demonstrates numerical methods and convergence control
+
+---
+
+### 18. **Merge Sort Algorithm** (`merge_sort.py`)
+
+Implements the merge sort algorithm using recursion.
+
+- Uses divide-and-conquer strategy
+- Sorts the list in place
+- Demonstrates recursion and array merging logic
+- Time complexity: O(n log n)
