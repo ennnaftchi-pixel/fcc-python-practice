@@ -180,3 +180,11 @@ An implementation of the binary search algorithm on a sorted list.
 - Demonstrates divide-and-conquer problem solving
 
 Introduces algorithmic thinking and performance-aware searching.
+
+### 17. **Square Root Bisection Method** (`square_root_bisection.py`)
+
+Approximates the square root of a number using the bisection algorithm.
+
+- Uses iterative narrowing with configurable tolerance
+- Handles edge cases (0, 1, negative numbers)
+- Demonstrates numerical methods and convergence control
