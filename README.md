@@ -171,3 +171,12 @@ A simple implementation of a hash table data structure.
 - Demonstrates key concepts behind hash-based data structures  
 
 Introduces hashing, collision handling, and efficient key-based access.
+
+### 16. **Binary Search Algorithm** (`binary_search_algorithm.py`)
+An implementation of the binary search algorithm on a sorted list.
+
+- Efficiently searches for a value in logarithmic time (O(log n))
+- Tracks and returns the path of inspected elements
+- Demonstrates divide-and-conquer problem solving
+
+Introduces algorithmic thinking and performance-aware searching.
