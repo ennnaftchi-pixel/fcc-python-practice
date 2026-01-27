@@ -242,3 +242,14 @@ Validates credit and debit card numbers using the **Luhn algorithm**.
 
 ---
 
+### 22. **Tower of Hanoi Solver** (`hanoi_solver.py`)
+
+An object-oriented Python exercise that demonstrates recursion and problem-solving:
+
+- Solves the classic Tower of Hanoi puzzle for `n` disks
+- Tracks the state of rods after each move
+- Returns a visual step-by-step progression of all moves
+- Demonstrates recursion and stack-based thinking
+
+---
+
