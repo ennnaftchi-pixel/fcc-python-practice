@@ -253,3 +253,14 @@ An object-oriented Python exercise that demonstrates recursion and problem-solvi
 
 ---
 
+### 23. **Dijkstra Shortest Path Algorithm** (`dijkstra_shortest_path.py`)
+
+A Python implementation of **Dijkstra's algorithm** using an adjacency matrix:
+
+- Finds the shortest paths from a start node to all other nodes
+- Supports optional single-target shortest-path queries
+- Returns both distances and actual paths
+- Demonstrates greedy algorithm design and graph traversal
+
+---
+
