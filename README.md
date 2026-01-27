@@ -223,9 +223,22 @@ Implements the quick sort algorithm using a functional approach.
 ---
 
 ### 20. **Selection Sort** (`selection_sort.py`)
+
 Implements the selection sort algorithm to sort a list of items in ascending order.  
+
 - Iteratively selects the smallest remaining element and moves it to the sorted portion.  
 - Demonstrates basic sorting logic and in-place swapping.
+
+---
+
+### 21. **Luhn Card Validator** (`luhn_card_validator.py`)
+
+Validates credit and debit card numbers using the **Luhn algorithm**.  
+
+- Cleans input by removing spaces and dashes.  
+- Doubles every second digit from the right, subtracts 9 if result > 9.  
+- Sums all digits and checks if divisible by 10 to determine validity.  
+- Demonstrates basic algorithm implementation, loops, and input validation.
 
 ---
 
