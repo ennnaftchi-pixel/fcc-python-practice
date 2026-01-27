@@ -264,3 +264,14 @@ A Python implementation of **Dijkstra's algorithm** using an adjacency matrix:
 
 ---
 
+### 24. **Adjacency List to Matrix Converter** (`adj_list_to_matrix.py`)
+
+A Python script to convert a graph from **adjacency list** to **adjacency matrix**:
+
+- Accepts a dictionary representing the adjacency list
+- Generates a 2D adjacency matrix
+- Prints the matrix row by row
+- Useful for transitioning between different graph representations
+
+---
+
