@@ -221,3 +221,11 @@ Implements the quick sort algorithm using a functional approach.
 - Worst case: O(n²)
 
 ---
+
+### 20. **Selection Sort** (`selection_sort.py`)
+Implements the selection sort algorithm to sort a list of items in ascending order.  
+- Iteratively selects the smallest remaining element and moves it to the sorted portion.  
+- Demonstrates basic sorting logic and in-place swapping.
+
+---
+
