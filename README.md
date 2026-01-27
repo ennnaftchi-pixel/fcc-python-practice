@@ -207,3 +207,17 @@ Implements the merge sort algorithm using recursion.
 - Sorts the list in place
 - Demonstrates recursion and array merging logic
 - Time complexity: O(n log n)
+
+---
+
+### 19. **Quick Sort Algorithm** (`quick_sort.py`)
+
+Implements the quick sort algorithm using a functional approach.
+
+- Uses a pivot-based divide-and-conquer strategy
+- Returns a new sorted list (not in-place)
+- Demonstrates recursion and list comprehensions
+- Average time complexity: O(n log n)
+- Worst case: O(n²)
+
+---
