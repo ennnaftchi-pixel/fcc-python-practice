@@ -297,3 +297,16 @@ Implements Depth-First Search on a graph represented as an adjacency matrix.
 
 ---
 
+### 27. **N-Queens (DFS & Backtracking)** (`dfs_n_queens.py`)
+
+Solves the classic N-Queens problem using depth-first search with backtracking.
+
+- Places queens row by row while enforcing constraints
+- Prevents column and diagonal conflicts
+- Demonstrates recursive DFS and pruning
+- Returns all valid board configurations
+
+A core backtracking problem commonly used in technical interviews.
+
+---
+
