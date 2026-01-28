@@ -286,3 +286,14 @@ Generates all valid combinations of parentheses for a given number of pairs.
 
 ---
 
+### 26. **Depth-First Search (DFS)** (`dfs_matrix.py`)
+
+Implements Depth-First Search on a graph represented as an adjacency matrix.
+
+- Uses an explicit stack (iterative DFS)
+- Tracks visited nodes to avoid cycles
+- Demonstrates graph traversal fundamentals
+- Useful for understanding paths, connectivity, and graph exploration
+
+---
+
