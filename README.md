@@ -275,3 +275,14 @@ A Python script to convert a graph from **adjacency list** to **adjacency matrix
 
 ---
 
+### 25. **Generate Parentheses (BFS)** (`generate_parentheses.py`)
+
+Generates all valid combinations of parentheses for a given number of pairs.
+
+- Uses a queue-based **Breadth-First Search (BFS)** approach
+- Ensures correctness by tracking open and closed parentheses counts
+- Demonstrates constraints-based generation
+- Common algorithmic interview problem
+
+---
+
